@@ -1,0 +1,8 @@
+li {
+    list-style-type: none;
+    display: flex;
+    align-content: space-around;
+    height: 2rem;
+    justify-content: space-between;
+    width: 20rem;
+}
