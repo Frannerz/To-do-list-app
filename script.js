@@ -89,6 +89,6 @@ function deleteItem(event) {
   displayItems(toDoListItems);
 }
 
-function showComplete(){
-    
-}
+// function showComplete(){
+
+// }
