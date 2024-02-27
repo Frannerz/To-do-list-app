@@ -8,10 +8,34 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>To Do List</h1>
-    <button id="add-button">Add item to list</button>
-    <ul id="list-container"></ul>
-    <button id="toggle-complete">Show/Hide Complete</button>
+  <header>
+    <h1>Task Tracker</h1>
+  </header>
+  <button id="add-button">Add item to list</button>
+    <div class="flex-container">
+      <section class="flex-item">
+        <h2>Your List</h2>
+        <ul id="list-container"></ul>
+      </section>
+      <section class="flex-item">
+        <h2>Regular Items</h2>
+        <p>(Click to add)</p>
+        <ul id="regular-items">
+          <li><button>Clean the house</button></li>
+          <li><button>Buy milk</button></li>
+          <li><button>Go to the gym</button></li>
+          <li><button>Complete assignment</button></li>
+        </ul>
+      </section>
+    </div>
+    
+    
+    <div class="show-hide">
+      <button id="show-complete">Show Complete</button>
+      <button id="hide-complete">Hide Complete</button>
+    </div>
+    
+    <footer>Fran Stephens, February/March 2024 </footer>
     <script src="/script.js"></script>
   </body>
 </html>
