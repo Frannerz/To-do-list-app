@@ -1,8 +1,30 @@
+:root{
+    --background-color: #efefef;
+    --text-color: #333235;
+    --borders-grey: #515151;
+    --highlights-green:#37e4ad;
+    --highlights-putple: #4610e9;
+
+}
+*{
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+
+ul {
+    margin: 0 auto; 
+    text-align: left; 
+    display: block; 
+    width: fit-content; 
+}
+
 li {
     list-style-type: none;
+    margin: 1rem;
     display: flex;
-    align-content: space-around;
-    height: 2rem;
+    height: 1.5rem;
     justify-content: space-between;
     width: 20rem;
 }
