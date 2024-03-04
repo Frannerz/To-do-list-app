@@ -12,9 +12,9 @@ export function deleteItem(event) {
       toDoListItems.splice(index, 1);
     }
   
-    console.log('updated list after', list);
+    console.log('updated list after', toDoListItems);
   
-    displayItems(list);
+    displayItems(toDoListItems);
   }
   
 
