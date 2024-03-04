@@ -3,28 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <title>Document</title>
+    <title>Task Tracker</title>
   </head>
   <body>
-  <header>
-    <h1>Task Tracker</h1>
-    <p>Daily Target:<span id="target-display">0</span></p>
-  </header>
-  <div class="flex-container">
-    <button id="add-button">Add item to list</button>
-    <button id="target-button">Add a target!</button>
-  </div>
-  
+    <header>
+      <h1>Task Tracker</h1>
+      <p class="target-display">
+        Daily Target:<span id="target-display">0</span>
+      </p>
+    </header>
+
+    <form>
+      <label for="target-today"
+        >Enter a daily target (between 1 and 10) for today:</label
+      >
+      <input
+        type="number"
+        id="target-today"
+        name="target-today"
+        min="1"
+        max="10"
+      />
+      
+    </form>
+
     <div class="flex-container">
       <section class="flex-item">
         <h2>Your List</h2>
+        <button id="add-button" class="add-button" title="Click to add a task!">+</button>
         <ul id="list-container"></ul>
       </section>
       <section class="flex-item">
         <h2>Regular Items</h2>
-        <p>(Click to add)</p>
+        <p>(Click item to add it to list)</p>
         <ul id="regular-items">
           <li><button>Clean the house</button></li>
           <li><button>Buy milk</button></li>
@@ -33,15 +46,14 @@
         </ul>
       </section>
     </div>
-    
-    
+
     <div class="show-hide">
       <button id="show-complete">Show Complete</button>
       <button id="hide-complete">Hide Complete</button>
     </div>
-    
-    <footer>Fran Stephens, February/March 2024 </footer>
-    
+
+    <footer>Fran Stephens, February/March 2024</footer>
+
     <script type="module" src="./src/delete.js"></script>
     <script type="module" src="./src/complete.js"></script>
     <script type="module" src="./src/regular-items.js"></script>
@@ -49,5 +61,6 @@
     <script type="module" src="./src/add.js"></script>
     <script type="module" src="./src/target.js"></script>
     <script type="module" src="./src/data.js"></script>
+    <script src="./src/colors.js"></script>
   </body>
 </html>

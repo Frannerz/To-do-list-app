@@ -1,5 +1,6 @@
 import { toDoListItems } from './data.js';
 import { displayItems } from './display.js';
+import { randomRGB } from './colors.js';
 
 const addButton = document.getElementById('add-button');
 
@@ -25,3 +26,11 @@ function addItem() {
   }
   
 addButton.addEventListener('click', addItem);
+
+
+function changeButtonDisplay(){
+  let newColour = randomRGB();
+  addButton.style.backgroundColor = newColour;
+}
+
+addButton.addEventListener('mouseover', changeButtonDisplay);
