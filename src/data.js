@@ -1,8 +1,9 @@
 //list to hold the items
 let toDoListItems  = []; 
-let completedItems = [];
+// let completedItems = [];
 
 
 
-export { toDoListItems, completedItems };
+export { toDoListItems };
 
+// , completedItems
