@@ -6,6 +6,9 @@ const addButton = document.getElementById('add-button');
 
 function addItem() {
     let userInput = prompt('Add an item to list');
+    if(userInput===null || !userInput){
+      return;
+    }
     let itemId = new Date().getTime();
     let task = {
       task: userInput,
