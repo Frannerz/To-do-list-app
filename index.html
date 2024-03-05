@@ -9,6 +9,11 @@
   </head>
   <body>
     <header>
+      <form action="/" id="enter-name" class="enter-name">
+        <label for="fname">Enter your first name:</label><br>
+        <input type="text" id="fname" >
+        <input type="submit" value="Login">
+      </form>
       <h1>Task Tracker</h1>
       <p class="target-display">
         Daily Target:<span id="target-display">0</span>
@@ -31,7 +36,7 @@
 
     <div class="flex-container">
       <section class="flex-item">
-        <h2>Your List</h2>
+        <h2><span id="firstNameDisplay">Your</span> List</h2>
         <button id="add-button" class="add-button" title="Click to add a task!">+</button>
         <ul id="list-container"></ul>
         <button id="delete-all" class="delete-all">Delete All Items</button>
@@ -54,7 +59,7 @@
     </div>
 
     <footer>Fran Stephens, February/March 2024</footer>
-
+    <script src="src/login.js"></script>
     <script type="module" src="./src/delete.js"></script>
     <script type="module" src="./src/complete.js"></script>
     <script type="module" src="./src/regular-items.js"></script>
