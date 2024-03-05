@@ -24,6 +24,12 @@ header {
     top:1rem;
     right:1rem;
 }
+
+.enter-name{
+    position: absolute;
+    top:1rem;
+    left:1rem;
+}
 footer {
     position: absolute;
     bottom: 0;
