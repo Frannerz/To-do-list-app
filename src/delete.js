@@ -17,6 +17,18 @@ export function deleteItem(event) {
     displayItems(toDoListItems);
   }
   
+//delete all 
+function deleteAllItems(){
+  while (toDoListItems.length > 0) {
+    toDoListItems.pop();
+  }
+  displayItems(toDoListItems)
+}
+
+const deleteAllButton = document.getElementById('delete-all');
+deleteAllButton.addEventListener('click', deleteAllItems);
+
+
 
 // export function deleteItem(event) {
 //     console.log('list before', toDoListItems);
