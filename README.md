@@ -1,6 +1,8 @@
 # A task tracker app for people who need some motivation!
 
-**Visit the app at: **
+**How to use:**
+- Clone the repository to your computer
+- Run index.html
 
 **Features:**
 - Personalise your list by adding your name
