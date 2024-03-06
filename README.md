@@ -22,11 +22,11 @@ C. Code readability, layout, and use of best practices (4 marks)
 D. Creativity (5 marks)
 
 **Objectives and where to find examples:**
-- Use boolean values and if..else statements to branch logic of your program: **add.js**
-- Use a data structure like an array to store values: **data.js and regular-items.js (task objects are created and added to toDoListItems array)**
-- Use a loop or a while loop to reduce repetition: **display.js uses a forEach loop to create each <li> element, colors.js for loop for iterating through buttons**
-- Use functions to make code reusable: **all js files**
-- Use console.log and alert to display messages: **complete.js**
+- Use boolean values and if..else statements to branch logic of your program: **see add.js**
+- Use a data structure like an array to store values: **see data.js and regular-items.js (task objects are created and added to toDoListItems array)**
+- Use a loop or a while loop to reduce repetition: **see display.js uses a forEach loop to create each <li> element, colors.js for loop for iterating through buttons**
+- Use functions to make code reusable: **see all js files**
+- Use console.log and alert to display messages: **see complete.js**
 - Use some HTML and CSS to create a basic website. Use at least 4 different HTML tags and style at least 2 of them. This does not need to look good! It is just a demo of what is covered: **see styles.css and colors.js**
 - Get input from the user on a web page: **see login.js**
 - Make changes to the HTML or CSS using JavaScript: **see display.js, colors.js, target.js**
