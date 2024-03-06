@@ -1,13 +1,13 @@
-import { listContainer } from "./complete.js";
+import { listContainer } from './complete.js';
 
 export function displayItems(array) {
-    listContainer.innerHTML = '';
+  listContainer.innerHTML = '';
 
-    array.forEach((task) => {
-      let item = document.createElement('li');
-      item.id = task.id;
+  array.forEach((task) => {
+    let item = document.createElement('li');
+    item.id = task.id;
 
-      item.innerHTML = `
+    item.innerHTML = `
           <div class='complete-button'>
               ${task.img}
           </div>
@@ -19,11 +19,6 @@ export function displayItems(array) {
           </div>
           `;
 
-      listContainer.append(item);
-    });
-  }
-  
-// export function displayIncomplete(array) {
-//     let newArray = array.filter((item) => !item.complete);
-//     displayItems(newArray);
-//   }
+    listContainer.append(item);
+  });
+}

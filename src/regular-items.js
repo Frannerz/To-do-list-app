@@ -22,5 +22,3 @@ regularItems.addEventListener('click', function (event) {
     displayItems(toDoListItems);
   }
 });
-
-

@@ -1,137 +1,136 @@
-:root{
-    --background-color: #efefef;
-    --text-color: #333235;
-    --borders-grey: #515151;
-    --highlights-green:#b9ffe9;
-    --highlights-putple: #8861fc;
-
+:root {
+  --background-color: #efefef;
+  --text-color: #333235;
+  --borders-grey: #515151;
+  --highlights-green: #b9ffe9;
+  --highlights-putple: #8861fc;
 }
-*{
-    color: var(--text-color);
-    background-color: var(--background-color);
-    text-align: center;
-    font-family: 'Courier New', monospace;
+* {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  text-align: center;
+  font-family: 'Courier New', monospace;
 }
 
 header {
-    height: 3rem;
-    border-bottom: 1px solid var(--borders-grey);
-    margin-bottom: 2rem;;
+  height: 3rem;
+  border-bottom: 1px solid var(--borders-grey);
+  margin-bottom: 2rem;
 }
 
-.target-display{
-    position: absolute;
-    top:1rem;
-    right:1rem;
+.target-display {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
-.enter-name{
-    position: absolute;
-    top:1rem;
-    left:1rem;
+.enter-name {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 3rem;
-    border-top: 1px solid var(--borders-grey);
-    width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  border-top: 1px solid var(--borders-grey);
+  width: 100vw;
 }
 
 section {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 ul {
-    margin: 0 auto; 
-    text-align: left; 
-    display: block; 
-    width: 100; 
-    height: 100;
-    background-color: var(--background-color);
+  margin: 0 auto;
+  text-align: left;
+  display: block;
+  width: 100;
+  height: 100;
+  background-color: var(--background-color);
 }
 
 li {
-    list-style-type: none;
-    margin: 0.5rem;
-    display: flex;
-    height: 1.5rem;
-    justify-content: space-between;
-    background-color: var(--background-color);
-    gap: 2rem; 
+  list-style-type: none;
+  margin: 0.5rem;
+  display: flex;
+  height: 1.5rem;
+  justify-content: space-between;
+  background-color: var(--background-color);
+  gap: 2rem;
 }
 
-.complete-button, .list-item, .delete-button {
-    text-align: center; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+.complete-button,
+.list-item,
+.delete-button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.complete-button{
-    flex-basis: 10%;
+.complete-button {
+  flex-basis: 10%;
 }
 .list-item {
-    flex-basis: 80%;
+  flex-basis: 80%;
 }
 .delete-button {
-    flex-basis: 10%;
+  flex-basis: 10%;
 }
 
 .show-hide {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    margin: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin: 1rem;
 }
 
 .add-button {
-    position: absolute; 
-    right: 0; 
-    margin: 0.8rem; 
-    font-weight: 900;
+  position: absolute;
+  right: 0;
+  margin: 0.8rem;
+  font-weight: 900;
 }
 
 .delete-all {
-    position: absolute; 
-    bottom: 0;
-    margin: 0.8rem; 
-    font-weight: 900;
+  position: absolute;
+  bottom: 0;
+  margin: 0.8rem;
+  font-weight: 900;
 }
 
 .flex-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    text-align: center; 
-  }
-  
-  .flex-item {
-    position:relative;
-    display: flex;
-    flex-direction: column; 
-    /* justify-content: center;  */
-    align-items: center; 
-    text-align: center; 
-    width: 100%; 
-    height: 60vh;
-  }
-  
-  .flex-item ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    overflow: scroll;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  .flex-item ul li {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    width: 100%; 
-  }
-  
+.flex-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;  */
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.flex-item ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  overflow: scroll;
+}
+
+.flex-item ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

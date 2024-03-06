@@ -17,21 +17,3 @@ for(let i=0; i<buttonElements.length; i++){
     buttonElements[i].style.backgroundColor = randColor;
  };
 
-// I originally generated a hex code for the button colours 
-//but some of the colours were too dark
-
-// function randomHex(){
-//     let hexCode = '#'
-//     const chars = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-//     while (hexCode.length <7){
-//         let randomIndex = Math.floor(Math.random() * 16)
-//         hexCode+=chars[randomIndex]
-//     }
-//     console.log(hexCode)
-//     return hexCode;
-// }
-
-// for(let i=0; i<buttonElements.length; i++){
-//     let randColor = randomHex();
-//     buttonElements[i].style.backgroundColor = randColor;
-// };
